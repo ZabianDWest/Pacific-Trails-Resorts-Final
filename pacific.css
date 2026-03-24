@@ -101,7 +101,7 @@ main {
 
 }
 section{
-    padding: 1 rem 0;
+    padding: 1rem 0;
 }
 h1 a {      /* changes my "pacific trails resort" to a white color */
     color: #fff;
@@ -127,9 +127,7 @@ text-shadow: 1px 1px #ccc;
 h3{
     color: #003; /* c#003 */
 }
-{
-    color: #004cff; /* c#002171 */    
-}
+
 address{
 font-style: normal; /* fsi */
 
@@ -176,7 +174,7 @@ footer {
     outline: 2px solid #000032;
 
 }
-#about_ushero {
+#about_us-hero {
     background-image: url(images/wereachedthetop.jpg);
     outline: 2px solid #000032;
     width: 95%;
@@ -382,7 +380,7 @@ img {
 
 @media(min-width: 1200px) { 
     .gallery{
-        grid-template-columns: repeat(0, 1fr);
+        grid-template-columns: repeat(0.5, 1fr);
     }
 }
 
